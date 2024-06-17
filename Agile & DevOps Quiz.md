@@ -48,58 +48,12 @@ Which is the software configuration concept that ensures that change should be d
 
 **Explanation:** Baseline is a software configuration concept that represents a fixed reference point in the software development lifecycle. It ensures that any changes made are done in a controlled and authorized manner, providing a stable foundation for further development and change management.
 
-# DevSecOps Part 3 pre
-## Question 1
-A _________ is an application security solution that can help to find certain vulnerabilities in web applications while they are running in production.
 
-- ***Dynamic Analysis Security Testing***
-- Static Analysis Security Testing
-- Container security
-- Software Composition Analysis
-
-**Explanation:** Dynamic Analysis Security Testing (DAST) can find vulnerabilities in web applications during runtime in a production environment. This is different from Static Analysis Security Testing (SAST), which examines code without executing it. Container security focuses on securing containerized environments, and Software Composition Analysis (SCA) identifies vulnerabilities in open-source components used in the application.
-
-## Question 2
-Which of the following DevSecOps tools allows an All-in-One website security scanner to support developers to detect problems at the most advanced stage?
-
-- ***Acunetix***
-- Codacy
-- Aqua Security
-- GitLab
-
-**Explanation:** Acunetix is an All-in-One website security scanner designed to detect vulnerabilities at the most advanced stages of development. Codacy is primarily a code quality tool, Aqua Security focuses on container security, and GitLab is a comprehensive DevOps platform but not specialized as a website security scanner.
-
-## Question 3
-Vulnerability Scanning ensures that code is checked for vulnerabilities at every major stage of the delivery pipeline from the time it is written to, when it is deployed into production.
-
-- ***True***
-- False
-
-**Explanation:** Vulnerability Scanning involves checking the code for security flaws at each significant stage of the delivery pipeline, ensuring that vulnerabilities are identified and addressed from development to deployment.
-
-## Question 4
-Use a SAST tool to ensure that your code is secure, safe, and reliable.
-
-- ***True***
-- False
-
-**Explanation:** Static Application Security Testing (SAST) tools analyze source code and binaries to identify security vulnerabilities, ensuring the code is secure, safe, and reliable before deployment.
-
-## Question 5
-\__________ refers to the process of tracking the identified vulnerabilities, the steps taken to mitigate and/or eliminate those vulnerabilities, and the overall status of the application’s security.
-
-- ***Monitor***
-- Scan
-- Analyze
-- Remediate
-
-**Explanation:** Monitoring involves continuously tracking identified vulnerabilities, the mitigation steps taken, and the overall security status of the application. Scanning is the initial detection of vulnerabilities, analyzing is examining these vulnerabilities in detail, and remediation refers to the process of fixing them.
-
-# Introduction to Agile post
+# Introduction to Agile post✅
 ## Question 1
 What are the roles in the dynamic system development method? Choose from the following:
 
-- Technical Coordinator
+- ***Technical Coordinator***
 - System Analyst
 - Designer
 - ***Scribe Facilitator***
@@ -117,7 +71,7 @@ _____ methodology focuses on visualization flow.
 **Explanation:** Kanban is a methodology that emphasizes visualizing the flow of work, managing work in progress, and optimizing the flow of tasks. This visualization helps teams see the progress of tasks and identify bottlenecks in the workflow.
 
 ## Question 3
-__________ is an iterative and incremental approach that embraces principles of agile development, including continuous user/customer involvement.
+\__________ is an iterative and incremental approach that embraces principles of agile development, including continuous user/customer involvement.
 
 - ***Dynamic System Development Method***
 - Increment Method
@@ -141,7 +95,7 @@ Which agile methodology divides the development into sprint cycles, in which a s
 
 - Lean Software Development
 - Extreme Programming
-- ***Scrum***
+- ***SCRUM***
 
 **Explanation:** Scrum is an agile methodology that organizes development into sprint cycles, typically lasting two to four weeks. Each sprint focuses on delivering a specific set of features or functionality, allowing for regular progress and iterative improvement.
 
@@ -153,7 +107,7 @@ State true or false. During agile development, more emphasis is given to documen
 
 **Explanation:** Agile development emphasizes working software over comprehensive documentation. While documentation is still important, the primary focus is on delivering functional software and maintaining flexibility to adapt to changing requirements.
 
-# Business Analytics pre
+# Business Analytics pre ✅
 ## Question 1
 Analytics reveal hidden patterns in _____.
 
@@ -204,7 +158,7 @@ _____ allows decision-makers at virtually all levels of the organization to gain
 
 **Explanation:** Business Process Management (BPM) allows decision-makers to gain insights into business performance and data, supporting and guiding actions across the organization. CRM, SCM, and ERP focus on specific aspects like customer relations, supply chain, and enterprise resource planning, respectively.
 
-# Business Analytics post
+# Business Analytics post ✅
 ## Question 1
 ______ is the process of discovering various models, summaries, and derived values from a given collection of data.
 
@@ -255,7 +209,7 @@ The challenges faced in Business Analytics are:
 
 **Explanation:** Business Analytics faces challenges related to the Volume of data (the amount of data), the Variety of data (the different types and sources of data), and the Velocity of data (the speed at which data is generated and processed). Integral data is not a recognized challenge in this context.
 
-# Business Analytics Techniques pre
+# Business Analytics Techniques pre ✅
 ## Question 1
 ____ reflect the success or failure after an event has been consumed.
 
@@ -305,7 +259,7 @@ _____ helps an organization to define and measure progress towards organizationa
 - ERP
 
 **Explanation:** Key Performance Indicators (KPIs) help organizations define and measure progress towards their goals. BPM (Business Process Management), CRM (Customer Relationship Management), and ERP (Enterprise Resource Planning) are tools and methodologies that can support this process, but KPIs are the specific metrics used for measurement.
-# Business Analytics Techniques post
+# Business Analytics Techniques post ✅
 ## Question 1
 Units per hour is an example of what KPI
 
@@ -354,7 +308,7 @@ _____ is the subject matter area on which reports revolve around.
 
 **Explanation:** Content is the subject matter area on which reports revolve, encompassing the information and data that the reports are designed to present and analyze.
 
-# Design Thinking pre
+# Design Thinking pre ✅
 ## Question 1
 Stating Your Users' Needs and Problems is done in which phase
 
@@ -403,7 +357,7 @@ Which is not a phase in design thinking
 
 **Explanation:** Model is not a phase in Design Thinking. The typical phases include Empathize, Define, Ideate, Prototype, and Test, but not Model.
 
-# Design Thinking post
+# Design Thinking post ✅
 ## Question 1
 Challenge Assumptions and Create Ideas is done in
 
@@ -453,7 +407,7 @@ _______in design thinking is a written, actionable statement that expresses the 
 - Ideate
 
 **Explanation:** POV (Point of View) in Design Thinking is a written, actionable statement that captures the problem from the user's perspective, guiding the design team's efforts to address the problem effectively.
-# Introduction to DevOps pre
+# Introduction to DevOps pre ✅
 ## Question 1
 In YAML file used for BitBucket pipeline, you can use different types of container for each step by selecting different images
 
@@ -492,11 +446,25 @@ Before DevOps, there is a significant delay between development and operations
 Which of the following CI/CD tools is known for its ease of setup, out-of-the-box usability, and beautiful user interface?
 
 - CircleCI
-- TeamCity
+- ***TeamCity***
 - Bamboo
-- **_Jenkins_**
+- Jenkins
 
-**Explanation:** The correct answer is Jenkins. It is well-known for its ease of setup, out-of-the-box usability, and customizable user interface.
+**Explanation:** TeamCity is known for its ease of setup, out-of-the-box usability, and beautiful user interface among the listed CI/CD tools. Here's why:
+
+> [!tip] Reason
+> 
+> 1. **Ease of Setup**: TeamCity provides a straightforward installation process with a user-friendly interface for configuring pipelines and integrations. It offers both Windows and Linux installations, with wizards and guides to assist in the setup.
+> 
+> 2. **Out-of-the-Box Usability**: TeamCity comes with a rich set of features and integrations out of the box, which makes it easy to get started with building, testing, and deploying applications. It supports various programming languages and frameworks, making it versatile for different development environments.
+> 
+> 3. **Beautiful User Interface**: JetBrains, the company behind TeamCity, is known for its emphasis on user experience and design. TeamCity reflects this with a clean, intuitive interface that makes it easy to navigate through projects, builds, and configurations.
+> 
+> 4. **Extensibility**: While TeamCity offers a lot out of the box, it also supports plugins and extensions, allowing teams to customize and extend its functionality as needed.
+> 
+> In contrast, tools like Jenkins, while powerful and widely used, typically require more configuration and plugins to achieve similar usability and interface aesthetics as TeamCity. CircleCI and Bamboo also have strengths but may not match TeamCity's reputation for ease of setup and interface design.
+> 
+> Therefore, based on the criteria of ease of setup, out-of-the-box usability, and beautiful user interface, TeamCity stands out as the correct choice among the options provided.
 
 ## Question 6
 Which of the following CI/CD tools provides support for .Net framework?
@@ -545,7 +513,7 @@ In which of the following, there is no human intervention and only a failed test
 - **_Continuous Delivery_**
 
 **Explanation:** The correct answer is Continuous Deployment, where new changes are automatically deployed to production without human intervention if all tests pass.
-# Introduction to DevOps post
+# Introduction to DevOps post ✅
 ## Question 1
 In Continuous Integration, build status is reported to developers when they are changing the code.
 
@@ -563,7 +531,7 @@ You can either define the pipeline using YAML syntax or through the user interfa
 **Explanation:** True. Azure pipelines allow you to define the pipeline using YAML syntax or through the user interface, providing flexibility in how you configure and manage your CI/CD processes.
 
 ## Question 3
-The __________is used to record the code changes made by developers so that these changes can be shared to others
+The _________ is used to record the code changes made by developers so that these changes can be shared to others
 
 - Change Control Board
 - Repository
@@ -595,8 +563,8 @@ Which of the following CI/CD tools is suitable for small projects?
 ## Question 6
 In GitLab, pipes are agents that run the CI/CD Jobs
 
-- **_True_**
-- False
+- True
+- ***False***
 
 **Explanation:** False. In GitLab CI/CD, pipelines are used to define the steps and tasks for CI/CD jobs, and runners (not pipes) are the agents that execute these jobs.
 
@@ -619,7 +587,7 @@ Pipe uses a script that lives in a Docker container
 **Explanation:** True. In GitLab CI/CD, pipes are defined using YAML and can contain scripts that execute within Docker containers, providing a consistent and isolated environment for CI/CD jobs.
 
 ## Question 9
-In _________, developed code is continuously delivered until the programmer considers it is ready to ship.
+In \_\_\_ , developed code is continuously delivered until the programmer considers it is ready to ship.
 
 - Continuous Monitoring
 - **_Continuous Delivery_**
@@ -637,7 +605,7 @@ Which of the following uses a version control system and a central code reposito
 - Continuous Deployment
 
 **Explanation:** Continuous Integration (CI) involves using a version control system and a central code repository to track the code changes made by developers, ensuring smooth integration of code changes and frequent automated testing.
-# DevSecOps Part 1 pre
+# DevSecOps Part 1 pre ✅
 ## Question 1
 With Continuous Delivery, production happens automatically without explicit approval.
 
@@ -666,10 +634,9 @@ DevOps bridges the gap between development and operations teams.
 CAMS Stands for Culture, Automation, _________ and ________.
 
 - Measurement
-- Sharing
+- ***Sharing***
 - Standard
-- **_Measurement_**
-- **_Sharing_**
+- **_Measurement
 
 **Explanation:** CAMS stands for Culture, Automation, Measurement, and Sharing. These are the key pillars of DevOps practices.
 
@@ -678,11 +645,11 @@ Which of the following is a software development practice where members of a tea
 
 - Continuous Deployment
 - Continuous Monitoring
-- **_Continuous Delivery_**
-- Continuous Integration
+- Continuous Delivery
+- ***Continuous Integration***
 
 **Explanation:** Continuous Integration (CI) is a software development practice where team members use a version control system and frequently integrate their work to the same location, such as the main branch, ensuring smooth and continuous integration of code changes.
-# DevSecOps Part 1 post
+# DevSecOps Part 1 post ✅
 ## Question 1
 Which of the following refers to automatically releasing a developer’s changes from the repository to production, where it is usable by customers?
 
@@ -727,7 +694,7 @@ In CAMS Model, ________ is all about monitoring and tracking the progress of var
 
 **Explanation:** In the CAMS Model (Culture, Automation, Measurement, Sharing), Measurement is about monitoring and tracking the progress of various activities involved in the DevOps environment, providing insights for continuous improvement and optimization.
 
-# DevSecOps Part 2 pre
+# DevSecOps Part 2 pre ✅
 ## Question 1
 ________ is the first phase of the pipeline, where developers put in their code and then again the code goes to the version control system with a proper version tag.
 
@@ -774,7 +741,7 @@ Which of the following are the Software Configuration Management tools?
 
 **Explanation:** Git and CVS are Software Configuration Management (SCM) tools used for version control and managing changes to code and software projects.
 
-# DevSecOps Part 2 post
+# DevSecOps Part 2 post ✅
 ## Question 1
 _________ and ________ are CI/CD software that automates tasks starting from development pipeline to deployment.
 
@@ -821,54 +788,54 @@ Which of the following phases in the CI/CD pipeline get all the features of that
 
 **Explanation:** The Build phase in the CI/CD pipeline integrates code changes from multiple branches, merges them, and compiles the code into deployable artifacts.
 
-# DevSecOps Part 3 pre
+# DevSecOps Part 3 pre ✅
 ## Question 1
 A _________ is an application security solution that can help to find certain vulnerabilities in web applications while they are running in production.
 
-- **_Dynamic Analysis Security Testing_**
+- ***Dynamic Analysis Security Testing***
 - Static Analysis Security Testing
 - Container security
 - Software Composition Analysis
 
-**Explanation:** Dynamic Analysis Security Testing (DAST) analyzes applications in their running state, which helps in identifying vulnerabilities that occur during execution in a production environment.
+**Explanation:** Dynamic Analysis Security Testing (DAST) can find vulnerabilities in web applications during runtime in a production environment. This is different from Static Analysis Security Testing (SAST), which examines code without executing it. Container security focuses on securing containerized environments, and Software Composition Analysis (SCA) identifies vulnerabilities in open-source components used in the application.
 
 ## Question 2
 Which of the following DevSecOps tools allows an All-in-One website security scanner to support developers to detect problems at the most advanced stage?
 
-- **_Acunetix_**
+- ***Acunetix***
 - Codacy
 - Aqua Security
 - GitLab
 
-**Explanation:** Acunetix is known for its comprehensive website security scanning capabilities, supporting developers in identifying and resolving advanced-stage security issues.
+**Explanation:** Acunetix is an All-in-One website security scanner designed to detect vulnerabilities at the most advanced stages of development. Codacy is primarily a code quality tool, Aqua Security focuses on container security, and GitLab is a comprehensive DevOps platform but not specialized as a website security scanner.
 
 ## Question 3
 Vulnerability Scanning ensures that code is checked for vulnerabilities at every major stage of the delivery pipeline from the time it is written to, when it is deployed into production.
 
-- **_True_**
+- ***True***
 - False
 
-**Explanation:** Vulnerability Scanning provides continuous security checks throughout the development and deployment stages, ensuring code safety at every major phase.
+**Explanation:** Vulnerability Scanning involves checking the code for security flaws at each significant stage of the delivery pipeline, ensuring that vulnerabilities are identified and addressed from development to deployment.
 
 ## Question 4
 Use a SAST tool to ensure that your code is secure, safe, and reliable.
 
-- **_True_**
+- ***True***
 - False
 
-**Explanation:** Static Application Security Testing (SAST) tools analyze source code to detect vulnerabilities early in the development cycle, ensuring secure and reliable code.
+**Explanation:** Static Application Security Testing (SAST) tools analyze source code and binaries to identify security vulnerabilities, ensuring the code is secure, safe, and reliable before deployment.
 
 ## Question 5
 \__________ refers to the process of tracking the identified vulnerabilities, the steps taken to mitigate and/or eliminate those vulnerabilities, and the overall status of the application’s security.
 
-- **_Monitor_**
+- ***Monitor***
 - Scan
 - Analyze
 - Remediate
 
-**Explanation:** Monitoring involves continuous observation of the application’s security posture, tracking identified vulnerabilities, and assessing the effectiveness of remediation efforts.
+**Explanation:** Monitoring involves continuously tracking identified vulnerabilities, the mitigation steps taken, and the overall security status of the application. Scanning is the initial detection of vulnerabilities, analyzing is examining these vulnerabilities in detail, and remediation refers to the process of fixing them.
 
-# DevSecOps Part 3 post
+# DevSecOps Part 3 post ✅
 ## Question 1
 \__________ provides a summary of possible attack scenarios, outlines the flow of sensitive data, and identifies vulnerabilities and offers potential mitigation options.
 
