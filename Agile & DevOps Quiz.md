@@ -883,3 +883,90 @@ _______ is a web-based DevOps program that gives a full CI/CD toolchain out-of-t
 - Contrast Security
 
 **Explanation:** GitLab is a comprehensive DevOps platform providing a full CI/CD toolchain out-of-the-box in a single application. Logz.io is focused on log analysis, Aqua Security on container security, and Contrast Security on application security.
+
+# DevSecOps Part 4 pre ✅
+## Question 1
+During the development phase in secure SDLC, teams need to make sure that they use secure coding standards.
+- **_True_**
+- False
+
+**Explanation:** Using secure coding standards during the development phase helps ensure that the code is resilient to vulnerabilities and is a fundamental practice in secure software development.
+
+## Question 2
+_________ is incorporated in the implementation phase of Secure SDLC.
+- OS Hardening, Web/Application Hardening
+- Dynamic Analysis
+- Security Monitoring/Compliance
+- **_Static Analysis_**
+
+**Explanation:** Static Analysis involves examining the code without executing it, which helps in identifying potential vulnerabilities early in the implementation phase of Secure SDLC.
+
+## Question 3
+DSOMM Level 1 calls for the execution of static analysis tools without any changes to the tools or settings.
+- **_True_**
+- False
+
+**Explanation:** DSOMM Level 1 focuses on basic practices, which include running static analysis tools with their default settings to identify security issues without custom configurations.
+
+## Question 4
+Security issues can be addressed in the SDLC pipeline well before deployment to production.
+- **_True_**
+- False
+
+**Explanation:** Addressing security issues early in the SDLC pipeline, such as during the design or coding phases, is crucial for preventing vulnerabilities from reaching production, reducing costs and effort associated with late-stage fixes.
+
+## Question 5
+Which of the following are considered as the 4-Axes in DSOMM?
+- **_Static Depth_**
+- Strategy
+- Collaboration
+- **_Intensity_**
+
+**Explanation:** In DSOMM, Static Depth refers to the depth of static analysis performed, and Intensity refers to the thoroughness and frequency of security practices applied. Strategy and Collaboration are not considered axes in DSOMM.
+
+# DevSecOps Part 4 post ✅
+## Question 1
+In which of the following phases of Secure SDLC, teams follow architecture and design guidelines to address risk?
+
+- Planning
+- Development
+- Requirement Analysis
+- **_Architecture And Design_**
+
+**Explanation:** In the Architecture and Design phase, teams follow specific guidelines to address potential risks and ensure that the system's architecture is secure and resilient to threats.
+
+## Question 2
+Which of the following are the three critical areas focused by Security Monitoring/Compliance in Secure SDLC?
+
+- Hardening web applications
+- **_Shifting security left in the SDLC_**
+- **_Creating an audit trail throughout the development_**
+- **_Building security into policies_**
+
+**Explanation:** Security Monitoring/Compliance focuses on integrating security early in the SDLC (shifting left), establishing policies that incorporate security considerations, and maintaining an audit trail to ensure traceability and accountability.
+
+## Question 3
+Which of the following are the steps of Threat Modeling?
+
+- **_Decomposing the application_**
+- **_Mitigation_**
+- **_Ranking Threats_**
+- Usecase Modeling
+
+**Explanation:** Threat Modeling involves decomposing the application to understand its components, ranking threats based on their potential impact and likelihood, and implementing mitigation strategies to address identified threats.
+
+## Question 4
+Employing both SAST and DAST in a pipeline would cover both codebase and runtime vulnerabilities.
+
+- **_True_**
+- False
+
+**Explanation:** Static Application Security Testing (SAST) analyzes the codebase for vulnerabilities, while Dynamic Application Security Testing (DAST) tests the application in its running state. Using both approaches ensures comprehensive coverage of both codebase and runtime vulnerabilities.
+
+## Question 5
+DSOMM strives to incrementally increase the effectiveness of a security program from Level 1 to Level 4.
+
+- **_True_**
+- False
+
+**Explanation:** DSOMM (DevSecOps Maturity Model) aims to progressively enhance the security practices within an organization, moving from basic (Level 1) to advanced (Level 4) stages of security program maturity.
