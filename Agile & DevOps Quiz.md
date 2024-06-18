@@ -1,5 +1,5 @@
+[🔙  Back to Menu](./README)
 <h1 style="color:teal;text-align:center;border-bottom:1px solid teal"> Agile & DevOps Quiz </h1>
-
 # Table of Contents
 1. [Introduction to Agile pre ✅](#introduction-to-agile-pre-)
 1. [Introduction to Agile post✅](#introduction-to-agile-post)
@@ -24,7 +24,7 @@
 1. [DevSecOps Part 6 pre ✅](#devsecops-part-6-pre-)
 1. [DevSecOps Part 6 post ✅](#devsecops-part-6-post-)
 1. [DevSecOps Part 7 pre ✅](#devsecops-part-7-pre-)
-2. [DevSecOps Part 7 post ✅](#devsecops-part-7-post-)
+1. [DevSecOps Part 7 post ✅](#devsecops-part-7-post-)
 
 # Introduction to Agile pre ✅
 ## Question 1
