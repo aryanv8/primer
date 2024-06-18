@@ -1278,3 +1278,40 @@ ______ is a set of security tools that can be used to validate compliance agains
 **Explanation:** OpenSCAP is a collection of security tools designed to verify compliance with security policies, such as those specified in government and industry standards.
 
 # DevSecOps Part 8 post ✅
+
+### Question 1
+Chef Automate is an integrated solution for managing and deploying infrastructure and applications.
+- **True**
+- False
+
+**Explanation:** Chef Automate provides an integrated platform for managing and deploying both infrastructure and applications, ensuring consistency and compliance through automation.
+
+### Question 2
+InSpec uses a client-server model.
+- **True**
+- False
+
+**Explanation:** InSpec does indeed use a client-server model, where InSpec agents (clients) run tests on target nodes and report back to a centralized server for analysis and reporting.
+
+### Question 3
+_________ was created to provide a standardized approach to maintain the security of systems.
+- ClientSpec
+- **OpenSCAP**
+- ServerSpec
+- Inspec
+
+**Explanation:** OpenSCAP is a standardized approach for maintaining system security through compliance checking and vulnerability assessment, based on the Security Content Automation Protocol (SCAP).
+
+### Question 4
+InSpec can also run as a series of automated tests that execute as part of your standard release pipelines.
+- **True**
+- False
+
+**Explanation:** InSpec is designed to integrate seamlessly into CI/CD pipelines, running automated compliance tests during the development and release processes to ensure security and compliance before deployment.
+
+### Question 5
+Once you have categorized and prioritized vulnerabilities, break down your remediation process into bite-size chunks to make them more manageable and effective.
+- **True**
+- False
+
+**Explanation:** Breaking down the remediation process into smaller, manageable chunks helps in effectively addressing vulnerabilities without overwhelming the team, ensuring steady progress towards security goals.
