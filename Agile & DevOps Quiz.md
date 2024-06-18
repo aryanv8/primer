@@ -1,5 +1,7 @@
-[🔙  Back to Menu](./README)
+[🔙  Back to Menu](../)
+
 <h1 style="color:teal;text-align:center;border-bottom:1px solid teal"> Agile & DevOps Quiz </h1>
+
 # Table of Contents
 1. [Introduction to Agile pre ✅](#introduction-to-agile-pre-)
 1. [Introduction to Agile post✅](#introduction-to-agile-post)
@@ -25,6 +27,8 @@
 1. [DevSecOps Part 6 post ✅](#devsecops-part-6-post-)
 1. [DevSecOps Part 7 pre ✅](#devsecops-part-7-pre-)
 1. [DevSecOps Part 7 post ✅](#devsecops-part-7-post-)
+1. [DevSecOps Part 8 pre ✅](#devsecops-part-8-pre-)
+1. [DevSecOps Part 8 post ✅](#devsecops-part-8-post-)
 
 # Introduction to Agile pre ✅
 ## Question 1
@@ -1193,3 +1197,84 @@ Configuration drift occurs when ad-hoc configuration changes and updates result 
 **Explanation:** Configuration drift happens when changes are made outside the established processes, leading to inconsistencies across development, test, and deployment environments.
 
 # DevSecOps Part 7 post ✅
+### Question 1
+Ansible leverages SSH to communicate between servers.
+- **True** 
+- False
+
+**Explanation:** Ansible uses SSH for agentless communication between servers, making it easy to set up and manage without requiring additional software on the target machines.
+
+### Question 2
+Which of the following services natively integrates Role-Based Access Control (RBAC) into the management platform?
+- Google Cloud Deployment Manager
+- **Azure Resource Manager**
+- CF Engine
+- AWS CloudFormation
+
+**Explanation:** Azure Resource Manager (ARM) natively integrates Role-Based Access Control (RBAC), allowing fine-grained access management for Azure resources.
+
+### Question 3
+________ allows you to create “recipes” and “cookbooks” using its Ruby-based DSL.
+- **Chef**
+- Puppet
+- Terraform
+- Vagrant
+
+**Explanation:** Chef uses a Ruby-based Domain Specific Language (DSL) to create recipes and cookbooks, which are used to define configurations and automate system management.
+
+### Question 4
+_________ are the components required to operate and manage enterprise IT environments.
+- Playbook
+- Module
+- **Infrastructure**
+- Platform
+
+**Explanation:** Infrastructure encompasses the necessary components to operate and manage enterprise IT environments, including hardware, software, network resources, and services.
+
+### Question 5
+Ansible is an example of a pull based configuration management tool.
+- True
+- **False**
+
+**Explanation:** Ansible is a push-based configuration management tool, where the control node pushes configurations to the managed nodes over SSH. Pull-based tools, such as Puppet, have the managed nodes periodically pull configurations from a central server.
+
+# DevSecOps Part 8 pre ✅
+
+### Question 1
+ServerSpec lets you include metadata about your compliance rules.
+- True
+- **False**
+
+**Explanation:** ServerSpec is a testing framework for infrastructure, focusing on validating server configurations. It does not include metadata about compliance rules, which is a feature provided by tools like InSpec.
+
+### Question 2
+Vulnerability scanning tools can be used to identify specific local users and groups.
+- **True**
+- False
+
+**Explanation:** Vulnerability scanning tools can analyze systems to detect specific local users and groups, among other vulnerabilities, to ensure proper security configurations and compliance.
+
+### Question 3
+With Chef Automate, you can run your InSpec compliance tests on demand, see the results on the dashboard, and remediate the problem.
+- **True**
+- False
+
+**Explanation:** Chef Automate integrates with InSpec to allow running compliance tests on demand, viewing results in a centralized dashboard, and remediating issues as part of an automated workflow.
+
+### Question 4
+InSpec tests can be easily added to act as a quality gate for compliance.
+- **True**
+- False
+
+**Explanation:** InSpec tests can be integrated into CI/CD pipelines to act as quality gates, ensuring that only compliant code and configurations proceed through the development lifecycle.
+
+### Question 5
+______ is a set of security tools that can be used to validate compliance against a set of policies.
+- ClientSpec
+- Inspec
+- **OpenSCAP**
+- ServerSpec
+
+**Explanation:** OpenSCAP is a collection of security tools designed to verify compliance with security policies, such as those specified in government and industry standards.
+
+# DevSecOps Part 8 post ✅
