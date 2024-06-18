@@ -23,6 +23,8 @@
 1. [DevSecOps Part 5 post ✅](#devsecops-part-5-post-)
 1. [DevSecOps Part 6 pre ✅](#devsecops-part-6-pre-)
 1. [DevSecOps Part 6 post ✅](#devsecops-part-6-post-)
+1. [DevSecOps Part 7 pre ✅](#devsecops-part-7-pre-)
+2. [DevSecOps Part 7 post ✅](#devsecops-part-7-post-)
 
 # Introduction to Agile pre ✅
 ## Question 1
@@ -1144,3 +1146,50 @@ Static Application Security Testing (SAST) is also known as 'black box testing�
 - **_False_**
 
 **Explanation:** Static Application Security Testing (SAST) is also known as 'white box testing' because it involves analyzing the internal structure of the application’s source code, as opposed to 'black box testing,' which examines the application from an external perspective.
+
+# DevSecOps Part 7 pre ✅
+## Question 1
+Which of the following is an open-source configuration management tool based on Python?
+
+- Vagrant
+- Chef
+- **_SaltStack_**
+- Puppet
+
+**Explanation:** SaltStack is an open-source configuration management and automation tool written in Python, designed to manage and configure nodes in an infrastructure.
+
+## Question 2
+___________ is a list of tasks that runs repeatedly in an order.
+
+- Task
+- **_Playbook_**
+- Role
+- Module
+
+**Explanation:** In Ansible, a playbook is a file containing a list of tasks that are executed in a specific order, allowing for automation of repetitive tasks.
+
+## Question 3
+You can also use Ansible Automation Platform for configuration management to maintain your systems in the desired state.
+
+- **_True_**
+- False
+
+**Explanation:** Ansible Automation Platform provides a suite of tools for automating and managing configurations, ensuring systems are maintained in a desired state consistently.
+
+## Question 4
+In Push Based Configuration Management System, nodes pull the configuration information from the server.
+
+- True
+- **_False_**
+
+**Explanation:** In a Push Based Configuration Management System, the server pushes configuration information to the nodes, as opposed to a Pull Based System where nodes pull the configuration from the server.
+
+## Question 5
+Configuration drift occurs when ad-hoc configuration changes and updates result in a mismatched development, test, and deployment environments.
+
+- **_True_**
+- False
+
+**Explanation:** Configuration drift happens when changes are made outside the established processes, leading to inconsistencies across development, test, and deployment environments.
+
+# DevSecOps Part 7 post ✅
