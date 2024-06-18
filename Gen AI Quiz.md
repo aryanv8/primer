@@ -110,3 +110,114 @@ When using RNNs for music generation, what does each neuron in the output layer 
 - **_A possible note or rest in the musical vocabulary_**
 
 **Explanation:** In music generation, each neuron in the output layer of an RNN typically represents a possible note or rest in the musical vocabulary, allowing the network to generate sequences of musical notes.
+
+# Sequence Generation with RNNs Post ☑️
+## Question 1
+In sequence generation tasks, what is the primary input to an RNN at each time step?
+
+- Current input
+- **_Previous output_**
+- Previous error
+- Current weight
+- None of the given options
+
+**Explanation:** In sequence generation tasks, the primary input to an RNN at each time step is typically the previous output, which helps the network generate coherent sequences by maintaining context from prior steps.
+
+## Question 2
+Which of the following is NOT a typical use case for RNNs?
+
+- **_Image classification_**
+- Text generation
+- None of the given options
+- Time series prediction
+- Speech recognition
+
+**Explanation:** RNNs are not typically used for image classification, which is more suited for Convolutional Neural Networks (CNNs). RNNs excel in tasks involving sequential data like text generation, time series prediction, and speech recognition.
+
+## Question 3
+Why might one use GRU over LSTM?
+
+- LSTM is outdated
+- None of the given options
+- **_GRU is simpler and sometimes faster_**
+- LSTM can't handle sequences
+- GRU is always more accurate
+
+**Explanation:** GRUs are simpler than LSTMs because they have fewer gates, which can result in faster training and inference times while still effectively managing long-term dependencies.
+
+## Question 4
+In music generation, what might an RNN be trained to predict?
+
+- Next song genre
+- Next album cover
+- **_Next note or chord_**
+- None of the given options
+- Next instrument
+
+**Explanation:** In music generation, an RNN is typically trained to predict the next note or chord in a sequence, helping to create a coherent musical piece.
+
+## Question 5
+Which problem arises when training RNNs on long sequences?
+
+- Overfitting
+- Underfitting
+- High bias
+- **_Vanishing or exploding gradients_**
+- All of the given options
+
+**Explanation:** When training RNNs on long sequences, the network can suffer from vanishing or exploding gradients, making it difficult to learn long-term dependencies.
+
+## Question 6
+How do RNNs handle variable-length sequences in NLP?
+
+- **_Through padding and truncation_**
+- By skipping them
+- By changing the network size
+- They don't
+- None of the given options
+
+**Explanation:** In NLP, variable-length sequences are handled by padding shorter sequences to a fixed length and truncating longer sequences, ensuring uniform input sizes for the RNN.
+
+## Question 7
+Which RNN architecture uses a reset and update gate?
+
+- Bidirectional RNN
+- **_GRU_**
+- Simple RNN
+- None of the given options
+- LSTM
+
+**Explanation:** GRU (Gated Recurrent Unit) architecture uses reset and update gates to control the flow of information and manage memory efficiently.
+
+## Question 8
+What is the main advantage of LSTM over basic RNN?
+
+- More layers
+- Lower computational cost
+- None of the given options
+- **_Handling long-term dependencies_**
+- Faster computation
+
+**Explanation:** The main advantage of LSTMs over basic RNNs is their ability to handle long-term dependencies through their unique cell state and gating mechanisms.
+
+## Question 9
+What is the primary difference between LSTM and GRU?
+
+- LSTM is faster, GRU is slower
+- **_LSTM has input, forget, and output gates; GRU has reset and update gates_**
+- LSTM has 3 gates, GRU has 2
+- LSTM is older, GRU is newer
+- LSTM is for sequences, GRU is for images
+
+**Explanation:** The primary difference between LSTM and GRU is that LSTM has three gates (input, forget, and output) while GRU has two gates (reset and update), making GRU simpler and often faster.
+
+## Question 10
+Which of the following is a common application of RNNs in NLP?
+
+- Face recognition
+- Image generation
+- Image classification
+- Object detection
+- **_Text generation_**
+
+**Explanation:** A common application of RNNs in NLP is text generation, where the model learns to predict and generate the next word or character in a sequence based on the context provided by previous words or characters.
