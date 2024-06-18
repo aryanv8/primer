@@ -221,3 +221,173 @@ Which of the following is a common application of RNNs in NLP?
 - **_Text generation_**
 
 **Explanation:** A common application of RNNs in NLP is text generation, where the model learns to predict and generate the next word or character in a sequence based on the context provided by previous words or characters.
+
+# Sentiment Analysis with RNN case study ☑️
+## Question 1
+What is the role of the `<OOV>` token?
+
+- Delete out-of-vocabulary words
+- Placeholder for numbers
+- Regular expression matcher
+- **_Placeholder for out-of-vocabulary words_**
+- Ignore out-of-vocabulary words
+
+**Explanation:** The `<OOV>` token serves as a placeholder for out-of-vocabulary words in natural language processing tasks, allowing the model to handle unseen words.
+
+## Question 2
+Which layer in the RNN model represents words as detailed feature lists?
+
+- Dense Layer
+- SimpleRNN Layer
+- **_Embedding Layer_**
+- LSTM Layer
+- Dropout Layer
+
+**Explanation:** The Embedding Layer in an RNN model represents words as detailed feature lists by mapping each word to a dense vector representation.
+
+## Question 3
+Why is padding used in the preprocessing step?
+
+- To reduce memory usage
+- To increase vocabulary size
+- To improve accuracy
+- **_To handle variable review length_**
+- For beautification
+
+**Explanation:** Padding is used to ensure all sequences (e.g., text reviews) have the same length, enabling efficient batch processing and consistent input size for the model.
+
+## Question 4
+What advantage does LSTM have over traditional RNNs?
+
+- Requires fewer layers
+- Simpler architecture
+- Faster convergence
+- **_Tackles the vanishing gradient problem_**
+- Lower memory usage
+
+**Explanation:** LSTM (Long Short-Term Memory) networks address the vanishing gradient problem by maintaining a more complex memory structure, allowing them to learn and retain dependencies over longer sequences.
+
+## Question 5
+What is the purpose of the Dropout layer in the LSTM with Dropout model?
+
+- ***Regularization to prevent overfitting***
+- Tokenization
+- Embedding
+- Recurrence
+- Activation function
+
+**Explanation:** The Dropout layer in the LSTM with Dropout model serves the purpose of reducing overfitting. Overfitting occurs when a model learns not only the underlying patterns in the training data but also noise and random fluctuations specific to the training dataset. Dropout addresses this issue by randomly dropping (i.e., setting to zero) a fraction of the units (neurons) in the network during training. This prevents neurons from co-adapting too much to each other and encourages the network to learn more robust features that are generalizable to new, unseen data. Thus, the Dropout layer acts as a regularization technique to improve the model's ability to generalize to new data by reducing overfitting.
+
+## Question 6
+What might be a concern if the training accuracy is high but validation accuracy is significantly low?
+
+- Model needs more layers
+- Model is underfitting
+- **_Model is overfitting_**
+- Data is incorrectly labeled
+- Model is perfectly trained
+
+**Explanation:** A high training accuracy and significantly low validation accuracy typically indicate that the model is overfitting to the training data and not generalizing well to unseen data.
+
+## Question 7
+In which scenario might you prefer a simple RNN over an LSTM?
+
+- Large datasets
+- Complex sentence structures
+- When high accuracy is a must
+- **_Fast training with limited resources_**
+- Long-range dependencies in data
+
+**Explanation:** A simple RNN might be preferred over an LSTM when there is a need for fast training with limited computational resources, as LSTMs are more computationally intensive.
+
+## Question 8
+Which parameter in `model.fit()` signifies the number of times the model is exposed to the dataset?
+
+- optimizer
+- batch_size
+- loss
+- **_epochs_**
+- validation_data
+
+**Explanation:** The `epochs` parameter in `model.fit()` specifies the number of iterations over the entire dataset during training.
+
+## Question 9
+Why is the loss function important during model compilation?
+
+- ***Specifies how errors are measured***
+- Adjusts learning rate
+- Specifies number of epochs
+- Assigns weights to layers
+- Determines model layers
+
+**Explanation:** The loss function during model compilation specifies how errors between predicted and actual values are measured, which guides the optimization process during training.
+
+## Question 10
+How does the model handle reviews of varying lengths?
+
+- Ignores reviews outside a certain length range
+- Uses multiple RNN layers
+- **_Uses padding_**
+- Changes tokenizer's vocabulary
+- Uses LSTM layers
+
+**Explanation:** The model handles reviews of varying lengths by padding shorter reviews to match the length of the longest review in the dataset, ensuring uniform input size.
+
+## Question 11
+Why might the vanishing gradient problem be a challenge in RNNs?
+
+- Makes model evaluation faster
+- Reduces training speed
+- **_Impedes learning of long-range dependencies_**
+- Increases accuracy
+- Requires more memory
+
+**Explanation:** The vanishing gradient problem in RNNs impedes the learning of long-range dependencies, as gradients diminish exponentially over time, making it difficult for the model to learn from earlier time steps.
+
+## Question 12
+In the given LSTM model, which layer(s) help in retaining memory and context?
+
+- Dense layer
+- **_LSTM layer_**
+- Dropout layer
+- Embedding layer
+- SimpleRNN layer
+
+**Explanation:** The LSTM layer (Long Short-Term Memory) in the model helps in retaining memory and context by selectively remembering and forgetting information over time steps.
+
+## Question 13
+When using a tokenizer with a fixed number of words, what could be a potential drawback?
+
+- ***Limited understanding due to missed words***
+- Simplifies the model
+- Increases memory usage
+- Enhances accuracy
+- Slows down training
+
+**Explanation:** Using a tokenizer with a fixed vocabulary size can lead to limited understanding due to missed words that are not included in the tokenizer's vocabulary.
+
+## Question 14
+What is the primary function of an Embedding Layer?
+
+- ***Representing words in dense vector format***
+- Tokenization
+- Regularization
+- Handling out-of-vocabulary words
+- Reducing sequence length
+
+**Explanation:** The primary function of an Embedding Layer is to represent words in a dense vector format, allowing the model to learn relationships between words based on their meanings and context.
+
+## Question 15
+After training, what can be inferred if the validation loss keeps decreasing but training loss remains high?
+
+- Training data is corrupted
+- ***Model is underfitting***
+- Model is overfitting
+- Model is perfectly trained
+- Model architecture is flawed
+
+**Explanation:** 
+- **Underfitting** occurs when a model is too simple to capture the underlying patterns of the training data. As a result, it performs poorly not only on the training data but also on new, unseen data (validation data in this case). When the validation loss decreases while the training loss remains high, it indicates that the model has not learned enough from the training data to generalize well to the validation data. This situation suggests that the model lacks complexity or capacity to adequately learn the patterns present in the data.
+- **Model is overfitting** would be the case if the training loss were very low but the validation loss started increasing or remained high, indicating that the model is memorizing the training data too well and not generalizing to new data.
+- **Model is perfectly trained** would imply that both training and validation losses are low and stable, which is rarely the case in practice.
+- **Model architecture is flawed** might be true in some cases where there are fundamental issues with how the model is structured or designed, but underfitting specifically relates to the model's inability to sufficiently learn from the training data.
