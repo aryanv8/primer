@@ -16,6 +16,8 @@
 1. [DevSecOps Part 3 post ✅](#devsecops-part-3-post-)
 1. [DevSecOps Part 4 pre ✅](#devsecops-part-4-pre-)
 1. [DevSecOps Part 4 post ✅](#devsecops-part-4-post-)
+1. [DevSecOps Part 5 pre ✅](#devsecops-part-5-pre-)
+1. [DevSecOps Part 5 post ✅](#devsecops-part-5-post-)
 
 # Introduction to Agile pre ✅
 ## Question 1
@@ -989,3 +991,106 @@ DSOMM strives to incrementally increase the effectiveness of a security program 
 - False
 
 **Explanation:** DSOMM (DevSecOps Maturity Model) aims to progressively enhance the security practices within an organization, moving from basic (Level 1) to advanced (Level 4) stages of security program maturity.
+
+# DevSecOps Part 5 pre ✅
+## Question 1
+Bill Of Materials (BOM) describe the components included in applications, the version of the components used, and the license types for each.
+
+- **_True_**
+- False
+
+**Explanation:** A Bill Of Materials (BOM) provides a detailed list of all components, their versions, and their license types, which is crucial for understanding the software's dependencies and managing security and compliance risks.
+
+## Question 2
+Which of the following are the Software Composition Analysis tools?
+
+- **_WhiteSource_**
+- Aqua Security
+- Docker
+- **_Dependency Checker_**
+
+**Explanation:** Software Composition Analysis (SCA) tools like WhiteSource and Dependency Checker are used to identify and manage open source components in a codebase, ensuring that known vulnerabilities and licensing issues are addressed.
+
+## Question 3
+Any component that has the potential to adversely impact cyber supply-chain risk is a candidate for Component Analysis.
+
+- **_True_**
+- False
+
+**Explanation:** Component Analysis involves evaluating components to identify those that may pose security risks within the cyber supply-chain, ensuring that vulnerabilities are managed before they can affect the system.
+
+# DevSecOps Part 5 post ✅
+## Question 1
+Implementing SCA ensures that all of the components in your applications are secure and compliant.
+
+- **_True_**
+- False
+
+**Explanation:** Software Composition Analysis (SCA) tools help to ensure that all components, especially open-source ones, are free from known vulnerabilities and comply with licensing requirements, thus securing the application.
+
+## Question 2
+SCA tools can both spot any security weak points and suggest potential solutions based on the entire code base.
+
+- **_True_**
+- False
+
+**Explanation:** Software Composition Analysis (SCA) tools analyze the codebase to detect vulnerabilities and often provide recommendations for fixing these issues, ensuring comprehensive security management.
+
+## Question 3
+__________ is the process of identifying potential areas of risk from the use of third-party and open-source software and hardware components.
+
+- Configuration Management
+- **_Component Analysis_**
+- Static Analysis
+- Dynamic Analysis
+
+**Explanation:** Component Analysis involves evaluating third-party and open-source components to identify potential security risks and ensure that they do not introduce vulnerabilities into the system.
+
+# DevSecOps Part 6 pre ✅
+## Question 1
+Which of the following problems can be identified by using static analysis?
+
+- Code Coverage
+- **_Dead or unused code_**
+- Input/Output Validation
+- **_Violation of code style guidelines_**
+
+**Explanation:** Static analysis tools can detect issues like dead or unused code and violations of code style guidelines without executing the program, helping to improve code quality and maintainability.
+
+## Question 2
+SAST is performed at the static level ensuring that code guidelines are followed without actually executing the application.
+
+- **_True_**
+- False
+
+**Explanation:** Static Application Security Testing (SAST) involves analyzing source code or binaries for vulnerabilities and adherence to coding guidelines without running the application, providing early detection of potential issues.
+
+## Question 3
+__________ is an approach to detect dependency bugs in build systems.
+
+- Smoke
+- Reshift
+- **_VeriBuild_**
+- Static code analyzer
+
+**Explanation:** VeriBuild is a tool designed to detect dependency bugs in build systems, ensuring that dependencies are correctly managed and integrated during the build process.
+
+## Question 4
+Which of the following SAST tools is specifically built for NodeJS?
+
+- Klocwork
+- Veracode
+- **_Reshift_**
+- Checkmarx
+
+**Explanation:** Reshift is a SAST tool specifically designed for NodeJS, providing security analysis tailored to the unique aspects of NodeJS applications.
+
+## Question 5
+Which of the following rules comes under comprehensive rulesets while embedding SAST tools into the pipeline?
+
+- Path manipulation
+- Weak encryption
+- **_Header injection_**
+- **_XML external entity_**
+
+**Explanation:** Comprehensive SAST rulesets include checks for vulnerabilities like XML external entity (XXE) attacks and header injection, which can be critical for ensuring the security of applications.
