@@ -1,5 +1,4 @@
-<h1 style="color:orange"> Agile & DevOps Quiz </h1>
-<hr style="border:1px solid orange">
+<h1 style="color:teal;text-align:center;border-bottom:1px solid teal"> Agile & DevOps Quiz </h1>
 
 # Table of Contents
 1. [Introduction to Agile pre ✅](#introduction-to-agile-pre-)
