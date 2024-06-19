@@ -82,3 +82,92 @@ Cloudwatch can monitor custom metrics in-addition to built-in metrics.
 - ***True***
 - False
 **Explanation:** True. Amazon CloudWatch allows you to monitor custom metrics alongside built-in metrics, providing comprehensive monitoring and observability of your applications and infrastructure. You can publish your own application metrics and use CloudWatch to create alarms and visualizations based on these metrics.
+
+## Security and Compliance - Pre ✅
+### Question 1
+AWS is responsible for protecting the Global infrastructure based on shared responsibility model .
+Select one:
+- ***True***
+- False
+
+**Explanation:** According to AWS's shared responsibility model, AWS is responsible for protecting the global infrastructure that runs all of the services offered in the AWS Cloud. This includes hardware, software, networking, and facilities that run AWS services.
+
+### Question 2
+The person or a workload who uses the AWS resources is known as _________
+- Root user
+- privileged user
+- ***AWS user***
+- Normal user
+
+**Explanation:** An AWS user refers to any individual, system, or application that interacts with AWS resources. Users are authenticated entities that make requests to AWS services and are often managed through AWS Identity and Access Management (IAM).
+
+### Question 3
+To simplify the assignment of similar permission for many users, ______ is used.
+- ***groups***
+- organizational units
+- resource management
+- root account
+
+**Explanation:** AWS IAM groups are collections of IAM users. By organizing users into groups, you can manage the permissions for multiple users simultaneously, making it easier to assign permissions to users who perform similar tasks.
+
+### Question 4
+Which of the below option is not a security best practice.
+- Use roles for applications
+- Remove unnecessary users and credentials
+- ***Use AWS account root user for daily activities***
+- Grant least privilege
+
+**Explanation:** Using the AWS account root user for daily activities is not recommended as it poses security risks. Instead, AWS recommends using IAM users or roles with the minimum permissions necessary for performing tasks.
+
+### Question 5
+To organize and manage the AWS resources, _________ is used.
+- Admistrative rights
+- ***resource groups***
+- organizational units
+- resource management
+
+**Explanation:** AWS resource groups are used to group AWS resources together based on criteria that you define (such as tags, region, resource types). This helps you organize and manage resources collectively, facilitating operations like applying policies or monitoring.
+
+### Question 6
+The method of authentication that enables the user to authenticate into multiple application with one set of credentials is __________
+- authentication
+- authorization
+- multifactor authentication
+- ***Single Sign on***
+
+**Explanation:** Single Sign-On (SSO) is a method of authentication that allows a user to authenticate once and gain access to multiple applications without needing to re-enter credentials. It simplifies user management and improves user experience across applications.
+
+### Question 7
+Which of the following services are managed service
+- ***Amazon RDS***
+- Amazon EC2
+- Amazon EBS
+- ***Amazon S3***
+
+**Explanation:** Managed services like Amazon RDS and Amazon S3 are fully managed by AWS, meaning AWS handles the infrastructure provisioning, maintenance, and scaling, allowing users to focus on using the service rather than managing it.
+
+### Question 8
+The addition layer of security along with the user credentials is __________
+- Single Sign on
+- ***multifactor authentication***
+- authentication
+- authorization
+
+**Explanation:** Multifactor authentication (MFA) adds an additional layer of security to user logins by requiring two or more forms of authentication (factors) before granting access. This helps protect against unauthorized access even if credentials are compromised.
+
+### Question 9
+Which service used to control access to the services and resources.
+- AWS Sheild
+- Amazon KMS
+- AWS WAF
+- ***Amazon IAM***
+
+**Explanation:** Amazon IAM (Identity and Access Management) is used to control access to AWS services and resources securely. It enables you to manage users, groups, roles, and their permissions in AWS.
+
+### Question 10
+Security in the cloud means customers are responsible for securing everything they deploy in the cloud
+Select one:
+- ***True***
+- False
+
+**Explanation:** True. In the cloud, the responsibility for security is shared between the cloud provider (AWS) and the customer. AWS secures the infrastructure, while customers are responsible for securing their data, applications, identities, and access management configurations.
