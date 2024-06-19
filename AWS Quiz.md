@@ -171,3 +171,84 @@ Select one:
 - False
 
 **Explanation:** True. In the cloud, the responsibility for security is shared between the cloud provider (AWS) and the customer. AWS secures the infrastructure, while customers are responsible for securing their data, applications, identities, and access management configurations.
+
+## Security and Compliance - Post ✅
+### Question 1
+IAM policies can be attached to __________
+- profile
+- ***group***
+- ***role***
+- ***user***
+**Explanation:** IAM policies can be attached to users, groups, and roles in AWS. This allows you to define permissions for these entities to control their access to AWS resources.
+
+### Question 2
+Which of the following entity allow a user to access AWS resources temporarily?
+- IAM User
+- IAM Policy
+- IAM Access Keys
+- ***IAM Role***
+**Explanation:** An IAM Role allows users or services to access AWS resources temporarily. Roles provide temporary security credentials to access resources without needing to share long-term credentials.
+
+### Question 3
+Which AWS service provides access to security and compliance documents?
+- AWS CloudHSM
+- ***AWS Artifact***
+- AWS Inspector
+- AWS KMS
+**Explanation:** AWS Artifact is a service that provides access to AWS’s security and compliance documents, including certifications and reports.
+
+### Question 4
+Which AWS service used for automated security assessments?
+- ***AWS Inspector***
+- AWS Shield
+- AWS CloudHSM
+- AWS KMS
+**Explanation:** AWS Inspector is a security assessment service that helps improve the security and compliance of applications deployed on AWS by automatically assessing applications for vulnerabilities or deviations from best practices.
+
+### Question 5
+How to set max permission for a user?
+- Permission Boundry
+- Group
+- Role
+- Policy
+- ***Permission Boundry***
+**Explanation:** A Permission Boundary is an advanced feature for setting the maximum permissions that an IAM entity (user or role) can have. This provides an additional layer of security by limiting the permissions that can be granted to the entity.
+
+### Question 6
+AWS is responsible for protecting the Global infrastructure based on shared responsibility model.
+Select one:
+- ***True***
+- False
+**Explanation:** True. Under the AWS shared responsibility model, AWS is responsible for protecting the global infrastructure that runs all the services offered in the AWS Cloud. This includes hardware, software, networking, and facilities that run AWS services.
+
+### Question 7
+What is the primary purpose of AWS IAM?
+- Scaling virtual machines
+- Analyzing log data
+- ***Controlling access to AWS resources***
+- Managing database instances
+**Explanation:** The primary purpose of AWS IAM (Identity and Access Management) is to control access to AWS resources. IAM enables you to manage access to AWS services and resources securely.
+
+### Question 8
+What is the benefit of using IAM roles for EC2 instances?
+- Improved security by avoiding the use of roles
+- Easier management of EC2 instances
+- Automatic scaling of EC2 instances
+- ***Secure access to AWS services without storing credentials***
+**Explanation:** Using IAM roles for EC2 instances provides secure access to AWS services without needing to store credentials on the instance. This improves security by leveraging temporary security credentials.
+
+### Question 9
+Which of the following are best practices of IAM?
+- ***Enable Multifactor authentication***
+- ***Delete access keys of root user***
+- Delete root user account
+- Delete root user password.
+**Explanation:** Best practices for IAM include enabling Multifactor Authentication (MFA) to add an extra layer of security, and deleting access keys for the root user to prevent misuse. It is also important to avoid using the root user for day-to-day activities.
+
+### Question 10
+Which AWS service protects applications running on AWS against DDoS attacks?
+- ***AWS Shield***
+- AWS IAM
+- AWS Inspector
+- AWS KMS
+**Explanation:** AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. It provides automatic protections against common DDoS attacks.
