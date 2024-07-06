@@ -93,6 +93,7 @@ Which of the following is a real-world application where GANs have shown signifi
 - Time series forecasting
 **Explanation:** GANs have shown significant promise in image-to-image translation, which involves transforming images from one domain to another, such as converting sketches to photorealistic images, or enhancing low-resolution images to high-resolution ones.
 
+
 ## Sequence Generation with RNNs pre ☑️
 ### Question 1
 Which RNN architecture utilizes update and reset gates to manage memory?
@@ -437,7 +438,7 @@ Why might the vanishing gradient problem be a challenge in RNNs?
 
 **Explanation:** The vanishing gradient problem in RNNs impedes the learning of long-range dependencies, as gradients diminish exponentially over time, making it difficult for the model to learn from earlier time steps.
 
-## Question 12
+### Question 12
 In the given LSTM model, which layer(s) help in retaining memory and context?
 
 - Dense layer
@@ -448,7 +449,7 @@ In the given LSTM model, which layer(s) help in retaining memory and context?
 
 **Explanation:** The LSTM layer (Long Short-Term Memory) in the model helps in retaining memory and context by selectively remembering and forgetting information over time steps.
 
-## Question 13
+### Question 13
 When using a tokenizer with a fixed number of words, what could be a potential drawback?
 
 - ***Limited understanding due to missed words***
@@ -459,7 +460,7 @@ When using a tokenizer with a fixed number of words, what could be a potential d
 
 **Explanation:** Using a tokenizer with a fixed vocabulary size can lead to limited understanding due to missed words that are not included in the tokenizer's vocabulary.
 
-## Question 14
+### Question 14
 What is the primary function of an Embedding Layer?
 
 - ***Representing words in dense vector format***
@@ -470,7 +471,7 @@ What is the primary function of an Embedding Layer?
 
 **Explanation:** The primary function of an Embedding Layer is to represent words in a dense vector format, allowing the model to learn relationships between words based on their meanings and context.
 
-## Question 15
+### Question 15
 After training, what can be inferred if the validation loss keeps decreasing but training loss remains high?
 
 - Training data is corrupted
