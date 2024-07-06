@@ -2,8 +2,99 @@
 
 <h1 style="color:teal;text-align:center;border-bottom:1px solid teal"> Gen AI Quiz </h1>
 
-# Sequence Generation with RNN pre ☑️
-## Question 1
+## Generative Adversarial Networks - Pre
+### Question 1
+In GANs, which component is responsible for evaluating the authenticity of data?
+- Encoder
+- Generator
+- ***Discriminator***
+- Decoder
+- None of the given options
+**Explanation:** The Discriminator in a GAN evaluates the authenticity of data by distinguishing between real and generated samples. It helps the Generator improve by providing feedback on how realistic the generated data is.
+
+### Question 2
+In the GAN architecture, what is the primary goal of the Discriminator?
+- Generate realistic data samples
+- ***Distinguish between real and generated samples***
+- Replicate the generator's output
+- Ensure mode diversity
+- Minimize the loss function
+**Explanation:** The primary goal of the Discriminator in a GAN is to distinguish between real and generated samples. This helps in training the Generator to produce more realistic data by constantly improving its ability to deceive the Discriminator.
+
+### Question 3
+What is mode collapse in the context of GANs?
+- When the model converges too quickly
+- When the discriminator becomes too powerful
+- When the model overfits
+- When the model underfits
+- ***When the generator produces limited varieties of outputs***
+**Explanation:** Mode collapse occurs when the Generator in a GAN produces limited varieties of outputs, resulting in a lack of diversity in the generated data. This is a common issue where the Generator finds a few modes of data that the Discriminator cannot distinguish well and repeatedly generates those modes.
+
+### Question 4
+The training process of GANs is often likened to which game?
+- Poker
+- ***Minimax***
+- None of the given options
+- Sudoku
+- Chess
+**Explanation:** The training process of GANs is likened to the minimax game, where the Generator and Discriminator are in a two-player game with opposing goals. The Generator tries to minimize the Discriminator's ability to distinguish real from fake, while the Discriminator tries to maximize its accuracy.
+
+### Question 5
+Progressive GANs are designed to address which challenge in traditional GANs?
+- Mode collapse
+- ***Training stability and generating high-resolution images***
+- Discriminator overpowering the generator
+- Slow training speeds
+- Inability to generate colored images
+**Explanation:** Progressive GANs are designed to improve training stability and the ability to generate high-resolution images. They do this by gradually increasing the resolution of the images during training, which helps to produce more detailed and higher-quality outputs.
+
+### Question 6
+Which component of a GAN is responsible for generating new data samples?
+- Discriminator
+- ***Generator***
+- Optimizer
+- Encoder
+- Decoder
+**Explanation:** The Generator in a GAN is responsible for creating new data samples. It learns to produce data that mimics the real data distribution, which the Discriminator then evaluates.
+
+### Question 7
+What does GAN stand for?
+- Generalized Artificial Network
+- None of the given options
+- ***Generative Adversarial Network***
+- Generative Analytical Network
+- Gradient Augmented Network
+**Explanation:** GAN stands for Generative Adversarial Network. It is a framework for training generative models through an adversarial process, where a Generator and a Discriminator compete to improve the quality of generated data.
+
+### Question 8
+Which type of GAN allows for generating data based on specific categories?
+- Minimax GAN
+- Mode Collapse GAN
+- Progressive GAN
+- ***Conditional GAN***
+- None of the given options
+**Explanation:** Conditional GANs allow for generating data based on specific categories by conditioning both the Generator and the Discriminator on additional information, such as class labels, to produce data that belongs to those categories.
+
+### Question 9
+What is a challenge faced during GAN training due to the minimax game concept?
+- Oscillations and non-convergence
+- Generator producing only a single mode
+- Quick convergence to a suboptimal solution
+- Discriminator becoming too weak
+- Overfitting to the training data
+**Explanation:** One of the main challenges in GAN training due to the minimax game concept is oscillations and non-convergence. This happens because the Generator and Discriminator continuously try to outdo each other, which can lead to unstable training dynamics.
+
+### Question 10
+Which of the following is a real-world application where GANs have shown significant promise?
+- Text summarization
+- Image classification
+- Speech recognition
+- ***Image-to-image translation***
+- Time series forecasting
+**Explanation:** GANs have shown significant promise in image-to-image translation, which involves transforming images from one domain to another, such as converting sketches to photorealistic images, or enhancing low-resolution images to high-resolution ones.
+
+## Sequence Generation with RNNs pre ☑️
+### Question 1
 Which RNN architecture utilizes update and reset gates to manage memory?
 
 - Bidirectional RNN
@@ -14,7 +105,7 @@ Which RNN architecture utilizes update and reset gates to manage memory?
 
 **Explanation:** The Gated Recurrent Unit (GRU) architecture uses update and reset gates to control the flow of information and manage memory within the network, making it more efficient than traditional RNNs.
 
-## Question 2
+### Question 2
 During the training of RNNs for sequence generation, what is the common technique used to mitigate the vanishing gradient problem?
 
 - Data augmentation
@@ -25,7 +116,7 @@ During the training of RNNs for sequence generation, what is the common techniqu
 
 **Explanation:** Gradient clipping is used to mitigate the vanishing gradient problem by limiting the gradients' size during backpropagation, preventing them from becoming too small or too large.
 
-## Question 3
+### Question 3
 In NLP, what does RNNs help to predict?
 
 - Next image
@@ -36,7 +127,7 @@ In NLP, what does RNNs help to predict?
 
 **Explanation:** In natural language processing (NLP), Recurrent Neural Networks (RNNs) are used to predict the next word in a sequence, which is crucial for tasks like language modeling and text generation.
 
-## Question 4
+### Question 4
 In the context of natural language processing, how are RNNs typically utilized for machine translation?
 
 - **_Encoding the input sequence and decoding the output sequence_**
@@ -47,7 +138,7 @@ In the context of natural language processing, how are RNNs typically utilized f
 
 **Explanation:** RNNs are used in machine translation by encoding the input sequence in one language and decoding it into another language, facilitating accurate translation between languages.
 
-## Question 5
+### Question 5
 Which of the following is NOT a type of RNN architecture?
 
 - Simple RNN
@@ -58,7 +149,7 @@ Which of the following is NOT a type of RNN architecture?
 
 **Explanation:** Convolutional Neural Networks (CNNs) are not a type of RNN architecture. CNNs are primarily used for image and spatial data, while RNNs are designed for sequential data.
 
-## Question 6
+### Question 6
 RNNs are primarily used for which type of data?
 
 - Image
@@ -69,7 +160,7 @@ RNNs are primarily used for which type of data?
 
 **Explanation:** RNNs are designed to handle sequential data, such as time series, text, and audio, where the order of the data points is significant.
 
-## Question 7
+### Question 7
 What does RNN stand for?
 
 - Random Neural Network
@@ -80,7 +171,7 @@ What does RNN stand for?
 
 **Explanation:** RNN stands for Recurrent Neural Network, which is a type of neural network designed to handle sequential data by maintaining a memory of previous inputs in the sequence.
 
-## Question 8
+### Question 8
 What is the key advantage of using LSTMs over basic RNNs in sequence generation tasks?
 
 - Simpler architecture
@@ -91,7 +182,7 @@ What is the key advantage of using LSTMs over basic RNNs in sequence generation 
 
 **Explanation:** LSTMs (Long Short-Term Memory networks) have the ability to remember long-term dependencies in the data, which is a significant advantage over basic RNNs that struggle with long-term memory due to the vanishing gradient problem.
 
-## Question 9
+### Question 9
 Which problem in RNNs does LSTM help to address?
 
 - Overfitting
@@ -102,7 +193,7 @@ Which problem in RNNs does LSTM help to address?
 
 **Explanation:** LSTMs are specifically designed to address the vanishing gradient problem by using memory cells and gates to maintain long-term dependencies in the data.
 
-## Question 10
+### Question 10
 When using RNNs for music generation, what does each neuron in the output layer typically represent?
 
 - A specific instrument
@@ -113,8 +204,8 @@ When using RNNs for music generation, what does each neuron in the output layer 
 
 **Explanation:** In music generation, each neuron in the output layer of an RNN typically represents a possible note or rest in the musical vocabulary, allowing the network to generate sequences of musical notes.
 
-# Sequence Generation with RNNs Post ☑️
-## Question 1
+## Sequence Generation with RNNs Post ☑️
+### Question 1
 In sequence generation tasks, what is the primary input to an RNN at each time step?
 
 - Current input
@@ -125,7 +216,7 @@ In sequence generation tasks, what is the primary input to an RNN at each time s
 
 **Explanation:** In sequence generation tasks, the primary input to an RNN at each time step is typically the previous output, which helps the network generate coherent sequences by maintaining context from prior steps.
 
-## Question 2
+### Question 2
 Which of the following is NOT a typical use case for RNNs?
 
 - **_Image classification_**
@@ -136,7 +227,7 @@ Which of the following is NOT a typical use case for RNNs?
 
 **Explanation:** RNNs are not typically used for image classification, which is more suited for Convolutional Neural Networks (CNNs). RNNs excel in tasks involving sequential data like text generation, time series prediction, and speech recognition.
 
-## Question 3
+### Question 3
 Why might one use GRU over LSTM?
 
 - LSTM is outdated
@@ -147,7 +238,7 @@ Why might one use GRU over LSTM?
 
 **Explanation:** GRUs are simpler than LSTMs because they have fewer gates, which can result in faster training and inference times while still effectively managing long-term dependencies.
 
-## Question 4
+### Question 4
 In music generation, what might an RNN be trained to predict?
 
 - Next song genre
@@ -158,7 +249,7 @@ In music generation, what might an RNN be trained to predict?
 
 **Explanation:** In music generation, an RNN is typically trained to predict the next note or chord in a sequence, helping to create a coherent musical piece.
 
-## Question 5
+### Question 5
 Which problem arises when training RNNs on long sequences?
 
 - Overfitting
@@ -169,7 +260,7 @@ Which problem arises when training RNNs on long sequences?
 
 **Explanation:** When training RNNs on long sequences, the network can suffer from vanishing or exploding gradients, making it difficult to learn long-term dependencies.
 
-## Question 6
+### Question 6
 How do RNNs handle variable-length sequences in NLP?
 
 - **_Through padding and truncation_**
@@ -180,7 +271,7 @@ How do RNNs handle variable-length sequences in NLP?
 
 **Explanation:** In NLP, variable-length sequences are handled by padding shorter sequences to a fixed length and truncating longer sequences, ensuring uniform input sizes for the RNN.
 
-## Question 7
+### Question 7
 Which RNN architecture uses a reset and update gate?
 
 - Bidirectional RNN
@@ -191,7 +282,7 @@ Which RNN architecture uses a reset and update gate?
 
 **Explanation:** GRU (Gated Recurrent Unit) architecture uses reset and update gates to control the flow of information and manage memory efficiently.
 
-## Question 8
+### Question 8
 What is the main advantage of LSTM over basic RNN?
 
 - More layers
@@ -202,7 +293,7 @@ What is the main advantage of LSTM over basic RNN?
 
 **Explanation:** The main advantage of LSTMs over basic RNNs is their ability to handle long-term dependencies through their unique cell state and gating mechanisms.
 
-## Question 9
+### Question 9
 What is the primary difference between LSTM and GRU?
 
 - LSTM is faster, GRU is slower
@@ -213,7 +304,7 @@ What is the primary difference between LSTM and GRU?
 
 **Explanation:** The primary difference between LSTM and GRU is that LSTM has three gates (input, forget, and output) while GRU has two gates (reset and update), making GRU simpler and often faster.
 
-## Question 10
+### Question 10
 Which of the following is a common application of RNNs in NLP?
 
 - Face recognition
@@ -224,8 +315,8 @@ Which of the following is a common application of RNNs in NLP?
 
 **Explanation:** A common application of RNNs in NLP is text generation, where the model learns to predict and generate the next word or character in a sequence based on the context provided by previous words or characters.
 
-# Sentiment Analysis with RNN case study ☑️
-## Question 1
+## Sentiment Analysis with RNNs case study ☑️
+### Question 1
 What is the role of the `<OOV>` token?
 
 - Delete out-of-vocabulary words
@@ -236,7 +327,7 @@ What is the role of the `<OOV>` token?
 
 **Explanation:** The `<OOV>` token serves as a placeholder for out-of-vocabulary words in natural language processing tasks, allowing the model to handle unseen words.
 
-## Question 2
+### Question 2
 Which layer in the RNN model represents words as detailed feature lists?
 
 - Dense Layer
@@ -247,7 +338,7 @@ Which layer in the RNN model represents words as detailed feature lists?
 
 **Explanation:** The Embedding Layer in an RNN model represents words as detailed feature lists by mapping each word to a dense vector representation.
 
-## Question 3
+### Question 3
 Why is padding used in the preprocessing step?
 
 - To reduce memory usage
@@ -258,7 +349,7 @@ Why is padding used in the preprocessing step?
 
 **Explanation:** Padding is used to ensure all sequences (e.g., text reviews) have the same length, enabling efficient batch processing and consistent input size for the model.
 
-## Question 4
+### Question 4
 What advantage does LSTM have over traditional RNNs?
 
 - Requires fewer layers
@@ -269,7 +360,7 @@ What advantage does LSTM have over traditional RNNs?
 
 **Explanation:** LSTM (Long Short-Term Memory) networks address the vanishing gradient problem by maintaining a more complex memory structure, allowing them to learn and retain dependencies over longer sequences.
 
-## Question 5
+### Question 5
 What is the purpose of the Dropout layer in the LSTM with Dropout model?
 
 - ***Regularization to prevent overfitting***
@@ -280,7 +371,7 @@ What is the purpose of the Dropout layer in the LSTM with Dropout model?
 
 **Explanation:** The Dropout layer in the LSTM with Dropout model serves the purpose of reducing overfitting. Overfitting occurs when a model learns not only the underlying patterns in the training data but also noise and random fluctuations specific to the training dataset. Dropout addresses this issue by randomly dropping (i.e., setting to zero) a fraction of the units (neurons) in the network during training. This prevents neurons from co-adapting too much to each other and encourages the network to learn more robust features that are generalizable to new, unseen data. Thus, the Dropout layer acts as a regularization technique to improve the model's ability to generalize to new data by reducing overfitting.
 
-## Question 6
+### Question 6
 What might be a concern if the training accuracy is high but validation accuracy is significantly low?
 
 - Model needs more layers
@@ -291,7 +382,7 @@ What might be a concern if the training accuracy is high but validation accuracy
 
 **Explanation:** A high training accuracy and significantly low validation accuracy typically indicate that the model is overfitting to the training data and not generalizing well to unseen data.
 
-## Question 7
+### Question 7
 In which scenario might you prefer a simple RNN over an LSTM?
 
 - Large datasets
@@ -302,7 +393,7 @@ In which scenario might you prefer a simple RNN over an LSTM?
 
 **Explanation:** A simple RNN might be preferred over an LSTM when there is a need for fast training with limited computational resources, as LSTMs are more computationally intensive.
 
-## Question 8
+### Question 8
 Which parameter in `model.fit()` signifies the number of times the model is exposed to the dataset?
 
 - optimizer
@@ -313,7 +404,7 @@ Which parameter in `model.fit()` signifies the number of times the model is expo
 
 **Explanation:** The `epochs` parameter in `model.fit()` specifies the number of iterations over the entire dataset during training.
 
-## Question 9
+### Question 9
 Why is the loss function important during model compilation?
 
 - ***Specifies how errors are measured***
@@ -324,7 +415,7 @@ Why is the loss function important during model compilation?
 
 **Explanation:** The loss function during model compilation specifies how errors between predicted and actual values are measured, which guides the optimization process during training.
 
-## Question 10
+### Question 10
 How does the model handle reviews of varying lengths?
 
 - Ignores reviews outside a certain length range
@@ -335,7 +426,7 @@ How does the model handle reviews of varying lengths?
 
 **Explanation:** The model handles reviews of varying lengths by padding shorter reviews to match the length of the longest review in the dataset, ensuring uniform input size.
 
-## Question 11
+### Question 11
 Why might the vanishing gradient problem be a challenge in RNNs?
 
 - Makes model evaluation faster
