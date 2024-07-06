@@ -2,7 +2,7 @@
 
 <h1 style="color:teal;text-align:center;border-bottom:1px solid teal"> Gen AI Quiz </h1>
 
-## Generative Adversarial Networks - Pre
+## Generative Adversarial Networks - Pre ☑️
 ### Question 1
 In GANs, which component is responsible for evaluating the authenticity of data?
 - Encoder
@@ -85,7 +85,7 @@ Which type of GAN allows for generating data based on specific categories?
 
 ### Question 9
 What is a challenge faced during GAN training due to the minimax game concept?
-- Oscillations and non-convergence
+- ***Oscillations and non-convergence***
 - Generator producing only a single mode
 - Quick convergence to a suboptimal solution
 - Discriminator becoming too weak
@@ -103,7 +103,7 @@ Which of the following is a real-world application where GANs have shown signifi
 
 **Explanation:** GANs have shown significant promise in image-to-image translation, which involves transforming images from one domain to another, such as converting sketches to photorealistic images, or enhancing low-resolution images to high-resolution ones.
 
-## Generative Adversarial Networks - Post
+## Generative Adversarial Networks - Post ☑️
 
 ### Question 1
 In the minimax game of GANs, what is the discriminator's goal?
@@ -147,7 +147,7 @@ Which component of a GAN tries to produce fake data?
 
 ### Question 5
 Which is NOT a real-world application of GANs?
-- Real-time weather prediction
+- ***Real-time weather prediction***
 - Data augmentation
 - Super-resolution imaging
 - Art generation
@@ -204,6 +204,159 @@ In GANs, if the discriminator becomes too powerful, what can happen?
 - The training process speeds up
 
 **Explanation:** If the Discriminator becomes too powerful, it can easily distinguish between real and fake data, making it difficult for the Generator to improve and produce more realistic outputs.
+
+## CASE STUDY - GANS - CIFAR - Quiz
+
+### Question 1
+Which architecture can help address convergence issues in traditional GANs?
+- RNN
+- CNN
+- ***WGAN***
+- LSTM
+- DBN
+
+**Explanation:** WGAN (Wasserstein GAN) introduces a new loss function that improves the convergence properties of the GAN training process, making it more stable compared to traditional GANs.
+
+### Question 2
+In the provided code, why is discriminator.trainable set to False when setting up the combined system?
+- To increase discriminator's accuracy
+- To prevent overfitting
+- ***To make sure only the generator is trained in this step***
+- None of the given options
+- To speed up training
+
+**Explanation:** Setting discriminator.trainable to False ensures that during the training of the combined model, only the generator's weights are updated, while the discriminator remains unchanged.
+
+### Question 3
+In the generator code, what is the purpose of the Reshape layer?
+- To critique the images
+- To normalize the image values
+- To flatten the images
+- To upsample the images
+- ***To reshape the dense layer into a 3D tensor for images***
+
+**Explanation:** The Reshape layer is used to transform the output of the dense layer into a 3D tensor that has the shape of an image, which is necessary for further convolutional layers in the generator.
+
+### Question 4
+During training, what does the generator use to improve itself?
+- Feedback from both the user and the discriminator
+- Real images
+- ***Feedback from the discriminator***
+- Feedback from the user
+- CIFAR-10 dataset
+
+**Explanation:** The generator improves itself by receiving feedback from the discriminator, which tells it how realistic or fake its generated images are, allowing the generator to refine its output.
+
+### Question 5
+What is used to refine the models during training?
+- Conv2D
+- LeakyReLU
+- Batch Normalization
+- Adam Optimizer
+- ***All of the given options***
+
+**Explanation:** All of the given options were used in the given case study.
+
+### Question 6
+Why might someone want to use GANs on the CIFAR-10 dataset?
+- To reduce the size of the dataset
+- To delete images from the dataset
+- To critique the images in the dataset
+- ***To generate novel and relevant images to augment dataset***
+- To classify the images in the dataset
+
+**Explanation:** GANs can be used to generate new, synthetic images that are similar to those in the CIFAR-10 dataset, which can be used to augment the dataset for training other models.
+
+### Question 7
+What are the two main components of a GAN?
+- Discriminator & Sampler
+- Generator & UpSampler
+- Discriminator & Evaluator
+- Generator & Evaluator
+- ***Generator & Discriminator***
+
+**Explanation:** A GAN consists of two main components: the generator, which creates fake images, and the discriminator, which evaluates whether the images are real or fake.
+
+### Question 8
+What does the discriminator do in a GAN?
+- Combines images
+- Enhances image resolution
+- Creates images
+- Both create and evaluate images
+- ***Evaluates if an image is real or fake***
+
+**Explanation:** The discriminator's role is to evaluate the images generated by the generator and distinguish between real and fake images, providing feedback to the generator.
+
+### Question 9
+Which challenge refers to the generator producing limited varieties or even the same sample every time?
+- Training Instability
+- Convergence Issues
+- Data Augmentation
+- All of the given options
+- ***Mode Collapse***
+
+**Explanation:** Mode collapse occurs when the generator produces a limited variety of outputs or even the same output repeatedly, which reduces the diversity of generated samples.
+
+### Question 10
+Which of the following is NOT a feedback given to the generator during training?
+- This is a genuine image
+- This image looks like a car
+- ***This image is pixelated***
+- This image looks blurry
+- This is a fake image
+
+**Explanation:** "This image is pixelated" is not a typical feedback given to the generator. The feedback usually involves whether the image is real or fake and qualitative aspects like blurriness or specific content.
+
+### Question 11
+Which technique can help in dealing with training instability in GANs?
+- ***Gradient clipping***
+- All of the given options
+- Dropout
+- Data augmentation
+- Noise addition
+
+**Explanation:** Gradient clipping helps in dealing with training instability by limiting the magnitude of the gradients during backpropagation, preventing the problem of exploding gradients.
+
+### Question 12
+Which activation function is used in the final layer of the generator model?
+- softmax
+- sigmoid
+- leakyrelu
+- ***tanh***
+- relu
+
+**Explanation:** The tanh activation function is commonly used in the final layer of the generator to scale the output pixel values between -1 and 1, which is suitable for image generation.
+
+### Question 13
+Which of the following best describes the role of the generator in a GAN?
+- ***To produce images***
+- To critique images
+- None of the given options
+- To evaluate the loss
+- To combine images
+
+**Explanation:** The primary role of the generator in a GAN is to produce images that are as realistic as possible in order to fool the discriminator.
+
+### Question 14
+How many images are there in each class of the CIFAR-10 dataset?
+- ***6000***
+- 12000
+- 10000
+- 5000
+- 15000
+
+**Explanation:** Each class in the CIFAR-10 dataset contains 6000 images, making a total of 60000 images across 10 classes.
+
+### Question 15
+In the discriminator's code, which layer helps in reducing the dimensions of the input image?
+- ***Conv2D with strides***
+- BatchNormalization
+- Dense
+- Reshape
+- UpSampling2D
+
+**Explanation:** The Conv2D layer with strides is used to reduce the dimensions of the input image by applying convolution operations with a specified stride, effectively downsampling the image.
+
 
 ## Sequence Generation with RNNs pre ☑️
 ### Question 1
