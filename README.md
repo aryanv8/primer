@@ -1,5 +1,5 @@
 # primer
-> [!Note]
+> ### Note
 > Only `Agile & DevOps Quiz` is complete and `Primers mcq` is pdf file.
 
 ## Table of Contents
